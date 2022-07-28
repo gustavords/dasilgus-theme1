@@ -1,0 +1,21 @@
+{
+    "name": "dasilgus-theme1",
+    "displayName": "dasilgus-theme1",
+    "description": "my first VSCode Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "dasilgus-theme1",
+                "uiTheme": "vs",
+                "path": "./themes/dasilgus-theme1-color-theme.json"
+            }
+        ]
+    }
+}
