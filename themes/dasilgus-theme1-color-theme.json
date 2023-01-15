@@ -1,11 +1,31 @@
 {
+
+
+	
+
 	"name": "dasilgus-theme1",
 	"colors": {
-		"editor.background": "#f5f5f5",
-		"editor.foreground": "#333333",
-        "list.activeSelectionIconForeground": "#fff"
+		"editor.background": "#E5EBC3", //E4FFC8 //F0E9E2 //F5CE88 // F2E9D0 //FFE2EE
+		"editor.foreground": "#96572A", // 96572A, D6794D //any writting thats not code or comments
+        "list.activeSelectionIconForeground": "#df1515" //the icon selected when in quickmenu
 	},
 	"tokenColors": [
+
+			
+		// {
+		// 	"name": "Brackets",
+		// 	"scope": [
+		// 		"bracket",
+		// 		"punctuation.definition.parameters.begin.js",
+		// 		"meta.parameters.js",
+		// 		"meta.function.js",
+		// 		"source.js",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#FF0000",
+		// 		"fontStyle": "bold"
+		// 	}
+		// },
 		{
 			"name": "Comments",
 			"scope": [
@@ -14,7 +34,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#AAAAAA"
+				"foreground": "#ff0000" //919191 //AAAAAA*
 			}
 		},
 		{
@@ -43,10 +63,10 @@
 			}
 		},
 		{
-			"name": "Operators",
+			"name": "Operators", //+-*/=<>
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#ff00bf" //777777
 			}
 		},
 		{
@@ -56,7 +76,7 @@
 				"storage"
 			],
 			"settings": {
-				"foreground": "#4B83CD"
+				"foreground": "#ec3300" //4B83CD //words like "if, while"
 			}
 		},
 		{
@@ -66,7 +86,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#1674d8" //393507 //const, function, let, var, class names
 			}
 		},
 		{
@@ -77,7 +97,7 @@
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#ab2626" //AB6526
 			}
 		},
 		{
@@ -87,7 +107,7 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#AB6526" //7A3E9D variable names
 			}
 		},
 		{
@@ -98,7 +118,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#AA3731"
+				"foreground": "#47aa31" //functions names
 			}
 		},
 		{
@@ -142,14 +162,14 @@
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#fe9831" 
 			}
 		},
 		{
 			"name": "Strings: Escape Sequences",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#d8b90a"
 			}
 		},
 		{
@@ -167,10 +187,10 @@
 			}
 		},
 		{
-			"name": "Punctuation",
+			"name": "Punctuation",  ///.;,!
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#f378e9" //777777
 			}
 		},
 		{
@@ -321,7 +341,7 @@
 			"name": "Markup: Prompt",
 			"scope": "markup.prompt",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#777777" //777777
 			}
 		},
 		{
